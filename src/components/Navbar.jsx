@@ -26,7 +26,8 @@ export const Navbar = () => {
     }, []);
 
     const handleClick = (id) => {
-        document.getElementById(id.replace("#", ""))?.scrollIntoView({ behavior: "smooth" });
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+        console.log(document.getElementById(id));
         setIsMenuOpen(false);
     }
 
