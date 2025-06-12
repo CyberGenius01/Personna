@@ -56,7 +56,7 @@ export const Navbar = () => {
                             key={key}
                             href={item.href}
                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                            onClick={() => handleClick(item.href)}
+                            onClick={() => handleClick(item.href.slice(1))}
                         >
                         {item.name}
                         </a>
