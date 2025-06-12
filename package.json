@@ -33,7 +33,7 @@
     "globals": "^16.0.0",
     "vite": "^6.3.5"
   },
-  "homepage": "https://<your-username>.github.io/<repo-name>",
+  "homepage": "https://CyberGenius01.github.io/Personna",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
