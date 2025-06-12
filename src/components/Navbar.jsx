@@ -25,6 +25,10 @@ export const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const handleClick = () => {
+        document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+        setIsMenuOpen(false);
+    }
 
     return (
         <nav
@@ -35,7 +39,7 @@ export const Navbar = () => {
         >
             <div className='container flex items-center justify-between'>
                 <a 
-                    href='#home'
+                    href='/Personna/#home'
                     className='text-xl font-bold text-primary flex items-center'
                 >
                     <span className='realtive z-10'>
@@ -48,10 +52,10 @@ export const Navbar = () => {
                 <div className="hidden md:flex space-x-8">
                     {navItems.map((item, key) => (
                         <a
-                        key={key}
-                        href={item.href}
-                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                        onClick={() => setIsMenuOpen(false)}
+                            key={key}
+                            href={item.href}
+                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                            onClick={() => handleClick()}
                         >
                         {item.name}
                         </a>
