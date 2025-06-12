@@ -25,8 +25,8 @@ export const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const handleClick = () => {
-        document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+    const handleClick = (id) => {
+        document.getElementById(id.replace("#", ""))?.scrollIntoView({ behavior: "smooth" });
         setIsMenuOpen(false);
     }
 
@@ -55,7 +55,7 @@ export const Navbar = () => {
                             key={key}
                             href={item.href}
                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                            onClick={() => handleClick()}
+                            onClick={() => handleClick(item.href)}
                         >
                         {item.name}
                         </a>
