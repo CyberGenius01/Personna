@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "CNN Optimization",
     description: "Cat-dog image classification using CNNs with high accuracy, low complexity.",
-    image: "/publications/pub1.png",
+    image: "publications/pub1.png",
     tags: ["CNN", "R&D", "Python"],
     demoUrl: "https://doi.org/10.1109/AIC61668.2024.10730855",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Financial Hypothesis",
     description:
       "Comparative analysis with hypothesis using ML to predict inter-firm stock influence.",
-    image: "/publications/pub2.png",
+    image: "publications/pub2.png",
     tags: ["ML", "scikit-learn", "z-test"],
     demoUrl: "https://doi.org/10.1109/IC3I61595.2024.10828598",
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "GLCM-VGG19 Model",
     description:
       "Deep learning model using VGG19 and GLCM for brain tumor classification with 93.4% accuracy.",
-    image: "/publications/pub3.png",
+    image: "publications/pub3.png",
     tags: ["CNN", "VGG19", "GLCM"],
     demoUrl: "https://doi.org/10.1016/j.procs.2025.04.428",
   },

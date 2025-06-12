@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Virtual Hiring Assistant",
     description: "A virtual assistant that generates follow-up questions like an interviewer.",
-    image: "/projects/project1.png",
+    image: "projects/project1.png",
     tags: ["Hugging face", "Streamlit", "Python"],
     demoUrl: "#",
     githubUrl: "https://github.com/CyberGenius01/Virtual-Hiring-Assistant",
@@ -16,7 +16,7 @@ const projects = [
     title: "MERN Website",
     description:
       "Full-stack B2C website offering AI and software development services.",
-    image: "/projects/project2.png",
+    image: "projects/project2.png",
     tags: ["Raect.js", "Node.js", "MongoDB"],
     demoUrl: "#",
     githubUrl: "#",
@@ -26,7 +26,7 @@ const projects = [
     title: "Java Music Player",
     description:
       "A feature-rich music player using Java Applet swith a modular design.",
-    image: "/projects/project3.png",
+    image: "projects/project3.png",
     tags: ["Java", "Swift"],
     demoUrl: "#",
     githubUrl: "#",
@@ -36,7 +36,7 @@ const projects = [
     title: "Movie Recommendation",
     description:
       "Multi-threaded Python web app with AI-powered movie recommendation engine.",
-    image: "/projects/project4.jpeg",
+    image: "projects/project4.jpeg",
     tags: ["Python", "Flask-MVC"],
     demoUrl: "#",
     githubUrl: "https://github.com/CyberGenius01/Updated-Movie-Recommendation-Model",
@@ -46,7 +46,7 @@ const projects = [
     title: "AI Gym trainer",
     description:
       "A Constrastive learning based AI agent that gives a score of correct gym posture.",
-    image: "/projects/project5.png",
+    image: "projects/project5.png",
     tags: ["CNN", "Python"],
     demoUrl: "#",
     githubUrl: "https://github.com/CyberGenius01/Siamese-Constrative-Learning",
@@ -56,7 +56,7 @@ const projects = [
     title: "Admission Chatbot",
     description:
       "An AI chatbot with capability of answering frequent FAQs for Student Admissions.",
-    image: "/projects/project6.png",
+    image: "projects/project6.png",
     tags: ["Transformer", "NLP"],
     demoUrl: "#",
     githubUrl: "https://github.com/CyberGenius01/AIML-Project-Series",
