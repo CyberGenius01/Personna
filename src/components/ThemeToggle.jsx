@@ -34,7 +34,7 @@ export const ThemeToggle = () =>{
         className={cn(
             'cursor-pointer fixed z-50 p-2',
             'top-5 right-20',
-            'sm:top-5 sm:right-5 ',
+            'sm:top-5 sm:right-5',
             'focus:outline-hidden rounded-full transition-colors duration-300'
         )}
     >

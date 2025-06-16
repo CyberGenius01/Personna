@@ -8,6 +8,7 @@ import { PublicationsSection } from "../components/PublicationsSection";
 import { SkillsSection } from "../components/SkillsSection";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
+import { Toaster } from "../components/ui/toaster";
 
 export const Home = () => {
     return (
@@ -33,6 +34,9 @@ export const Home = () => {
 
         {/* Footer */}
         <Footer />
+
+        {/* Tosater */}
+        <Toaster />
     </div>
 
     );
